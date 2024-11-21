@@ -67,9 +67,10 @@ table.dataframe th {
 """, unsafe_allow_html=True)
 
 st.write("""
-# DNA Nucleotide Count Web App
-This app is a quick and easy way to get a breakdown of your DNA's nucleotide composition.
-The results of this app can be used for a variety of purposes, such as research or personal health.
+# ADN y enfermedades geneticas
+esta app fue generada por alumnos de bioinformatica, facilitando la rama de informacion
+de los lectores interesados en enriquecer su conocimiento sobre el ADN
+
 ***
 """)
 
