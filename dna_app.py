@@ -51,8 +51,8 @@ table.dataframe {
 }
 
 table.dataframe th, table.dataframe td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border: 20px solid #ddd;
+    padding: 6px;
     text-align: left;
 }
 
@@ -61,7 +61,7 @@ table.dataframe th {
 }
 
 .chart {
-    margin-top: 20px;
+    margin-top: 60px;
 }
 </style>
 """, unsafe_allow_html=True)
