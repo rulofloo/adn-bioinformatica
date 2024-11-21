@@ -57,7 +57,7 @@ table.dataframe th, table.dataframe td {
 }
 
 table.dataframe th {
-    background-color: #f5f5f5;
+    background-color: #f1f5f2;
 }
 
 .chart {
