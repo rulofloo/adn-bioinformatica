@@ -23,20 +23,20 @@ st.image(image, use_column_width=True)
 st.write("""
 <style>
 h1 {
-    color: #02c74d;
+    color: #08g24d;
     font-size: 32px;
     text-align: center;
     margin-bottom: 20px;
 }
 
 h2 {
-    color: #0366d6;
+    color: #0191h6;
     font-size: 24px;
     margin-bottom: 10px;
 }
 
 .subheader {
-    color: #02b3c7;
+    color: #hj95il;
     font-size: 18px;
     margin-bottom: 5px;
 }
