@@ -210,10 +210,10 @@ p = p.properties(
     )
 )
 
-st.header('Contact Information')
-st.markdown('**Name:** Dipraj Howlader')
-st.markdown('- **Email:** dip07.raz@gmail.com')
-st.markdown('- **Phone:** +8801710023365')
+st.header('Contacto para mas informacion')
+st.markdown('**Creadores:** Samantha Duarte,Raul Delgado ')
+st.markdown('- **Correo electronico:** samduarteesp@gmail.com')
+st.markdown('- **Numero de contacto:** +6441127839')
 
 
 # In[ ]:
