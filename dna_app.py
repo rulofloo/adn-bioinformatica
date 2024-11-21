@@ -166,7 +166,7 @@ st.subheader('5. Display Pie Chart')
 import altair as alt
 
 # Reshape the data for animated pie chart
-df_pivot = df.melt('nucleotide', var_name='metric', value_name='value')
+df_pivot = df.melt('nucleotido', var_name='metric', value_name='valor')
 
 # Create animated pie chart
 animated_pie_chart = alt.Chart(df_pivot).mark_arc().encode(
