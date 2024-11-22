@@ -120,19 +120,19 @@ with col1:
 
 with col2:
     # 2. Print text
-    st.subheader('2. Print text')
-    st.write('There are ' + str(X['A']) + ' adenine (A)')
-    st.write('There are ' + str(X['T']) + ' thymine (T)')
-    st.write('There are ' + str(X['G']) + ' guanine (G)')
-    st.write('There are ' + str(X['C']) + ' cytosine (C)')
+    st.subheader('2. Imprimir texto')
+    st.write('Hay ' + str(X['A']) + ' adenina (A)')
+    st.write('Hay ' + str(X['T']) + ' timina (T)')
+    st.write('Hay ' + str(X['G']) + ' guanina (G)')
+    st.write('Hay ' + str(X['C']) + ' citosina (C)')
 
 with col3:
     # 3. Display DataFrame
-    st.subheader('3. Display DataFrame')
+    st.subheader('3. Esquema de visualizacion')
     df = pd.DataFrame.from_dict(X, orient='index')
-    df = df.rename({0: 'count'}, axis='columns')
+    df = df.rename({0: 'conteo'}, axis='columns')
     df.reset_index(inplace=True)
-    df = df.rename(columns={'index': 'nucleotide'})
+    df = df.rename(columns={'index': 'nucleotido'})
     st.write(df)
 
 # Add CSS styling for subheaders
