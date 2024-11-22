@@ -99,13 +99,13 @@ st.header('Entrada (ADN)')
 sequence
 
 ## DNA nucleotide count
-st.header('OUTPUT (DNA nucleotide composition)')
+st.header('SALIDA (composicion de nucleotidos de ADN)')
 
 
-# 1. Print dictionary
+# 1. Imprimir diccionario
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.subheader('1. Print dictionary')
+    st.subheader('1. Imprimir diccionario')
     def DNA_nucleotide_count(seq):
         d = dict([
             ('A', seq.count('A')),
