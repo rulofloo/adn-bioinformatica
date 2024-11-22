@@ -130,9 +130,9 @@ with col3:
     # 3. Display DataFrame
     st.subheader('3. Esquema de visualizacion')
     df = pd.DataFrame.from_dict(X, orient='index')
-    df = df.rename({0: 'conteo'}, axis='columns')
+    df = df.rename({0: 'count'}, axis='columns')
     df.reset_index(inplace=True)
-    df = df.rename(columns={'index': 'nucleotido'})
+    df = df.rename(columns={'index': 'nucleotide'})
     st.write(df)
 
 # Add CSS styling for subheaders
