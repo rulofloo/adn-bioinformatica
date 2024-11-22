@@ -67,7 +67,7 @@ table.dataframe th {
 """, unsafe_allow_html=True)
 
 st.write("""
-# ADN y enfermedades geneticas
+# ADN 
 esta app fue generada por alumnos de bioinformatica, facilitando la rama de informacion
 de los lectores interesados en enriquecer su conocimiento sobre el ADN
 
@@ -161,7 +161,7 @@ p = p.properties(
 st.write(p)
 
 ### 5. Display Pie Chart using Altair
-st.subheader('5. Grafico Ciecular')
+st.subheader('5. Grafico Circular')
 
 import altair as alt
 
@@ -211,7 +211,7 @@ p = p.properties(
 )
 
 st.header('Contacto para mas informacion')
-st.markdown('**Creadores:** Samantha Duarte,Raul Delgado ')
+st.markdown('**Creadores:** Samantha Duarte, Raul Delgado, Saul Peña ')
 st.markdown('- **Correo electronico:** samduarteesp@gmail.com')
 st.markdown('- **Numero de contacto:** +6441127839')
 
