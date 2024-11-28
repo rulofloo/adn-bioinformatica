@@ -170,6 +170,52 @@ sintetizar proteínas, que son esenciales para el funcionamiento y la estructura
 ***
 """)
 
+
+st.write("""
+# Transcripción y Traducción (Expresión genética) 
+El proceso mediante el cual la información contenida en el ADN se convierte en proteínas se lleva a cabo en dos etapas principales:
+
+Transcripción: Durante la transcripción, una porción del ADN (un gen) se copia en una molécula de ARN mensajero (ARNm). Este 
+ARN es una versión complementaria de una de las cadenas de ADN y es el que llevará la información del gen desde el núcleo 
+a los ribosomas en el citoplasma.
+
+Traducción: En los ribosomas, la secuencia de bases del ARNm se traduce en una secuencia de aminoácidos, que luego se ensamblan 
+para formar una proteína. Cada tres bases del ARNm (un codón) codifican un aminoácido específico.
+
+***
+""")
+
+st.write("""
+# Genes y Cromosomas 
+Los genes son segmentos específicos de ADN que contienen la información para la producción de proteínas o ARN funcionales. Los 
+genes están organizados en estructuras llamadas cromosomas. En los seres humanos, por ejemplo, hay 23 pares de cromosomas en 
+cada célula (en total, 46 cromosomas), y cada uno contiene miles de genes.
+
+***
+""")
+
+st.write("""
+# Variabilidad y Herencia
+Las diferencias en las secuencias de ADN entre individuos se deben a las mutaciones o a la variabilidad genética heredada de 
+los padres. Estas diferencias son las que dan lugar a las características físicas y biológicas únicas de cada individuo. El ADN 
+se transmite de padres a hijos en el proceso de reproducción, lo que asegura que las características genéticas se hereden.
+
+***
+""")
+
+st.write("""
+# Resumen
+En resumen, el ADN es el "manual de instrucciones" para la vida. Su secuencia de nucleótidos determina las características 
+biológicas de un organismo y es responsable de las funciones celulares esenciales. La replicación, transcripción y traducción 
+del ADN son los procesos mediante los cuales la información genética se utiliza para mantener y perpetuar la vida.
+
+Si tienes más preguntas sobre algún aspecto específico del ADN o su función, ¡estaré encantado de responder! Para mas informacion
+y dudas en la arte inferior de la pagina se encuentra en la parte inferior
+
+***
+""")
+
+
 st.header('Contacto para mas informacion')
 st.markdown('**Creadores:** Samantha Duarte, Raul Delgado, Saul Peña ')
 st.markdown('- **Correo electronico:** samduarteesp@gmail.com')
